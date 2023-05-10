@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  max-height: 97vh;
+  font-weight: 700;
+  overflow-x: hidden;
+}
+
+/* * header ksımı */
+
+.header {
+  background-color: aqua;
+  display: inline-block;
+  width: 100%;
+}
+.img {
+  margin: 20px;
+}
+.img-1 {
+  width: 50px;
+}
+.img-1:hover {
+  cursor: pointer;
+}
+
+.bar {
+  position: absolute;
+  right: 2rem;
+  top: 3rem;
+  text-decoration: none;
+}
+.bar a {
+  text-decoration: none;
+}
+.bar a:hover {
+  text-decoration: underline;
+}
+/* * nav kısmı */
+
+.nav {
+  text-align: center;
+  background-color: orange;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover {
+  color: white;
+}
+/* !main kısmı */
+.main {
+  height: 100vh;
+}
+.img-2 {
+  width: 100%;
+  height: 50vh;
+}
+.main-1 {
+  position: relative;
+  left: 4rem;
+  bottom: 12rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+}
+.main-1 p {
+  color: red;
+  /* margin-top: 10px; */
+}
+button {
+  color: black;
+  background-color: pink;
+  border-radius: 1rem;
+  margin-top: 20px;
+  padding: 10px 10px;
+}
+button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+/** icon kısmı */
+.fa-slack {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  color: white;
+  background-color: red;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 50%;
+}
+.fa-slack:hover {
+  outline: 2px inset red;
+  outline-offset: 3px;
+}
+.text {
+  position: relative;
+  bottom: 16rem;
+  margin: 10px;
+  font-size: 18px;
+}
