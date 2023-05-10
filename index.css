@@ -39,6 +39,7 @@ body {
 .bar a:hover {
   text-decoration: underline;
 }
+
 /* * nav kısmı */
 
 .nav {
@@ -94,17 +95,18 @@ button:hover {
 /** icon kısmı */
 .fa-slack {
   position: fixed;
-  right: 1rem;
-  bottom: 1rem;
+  right: 2rem;
+  bottom: 2rem;
   color: white;
   background-color: red;
   font-size: 2rem;
   padding: 10px;
   border-radius: 50%;
 }
-.fa-slack:hover {
+.icon .fa-slack:hover {
   outline: 2px inset red;
   outline-offset: 3px;
+  color: black;
 }
 .text {
   position: relative;
